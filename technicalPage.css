@@ -1,0 +1,100 @@
+body {
+    font-size: 25px;
+    
+}
+
+/* stying for navigation */
+nav {
+    /* we want to set of links to be fixed on the screen, even when it scrolls */
+    position: fixed;
+    width: 25%;
+    /* we postion the navigation links from the top left and set them to 0 */
+    top : 0;
+    left : 0;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.nav-link {
+    /* by default img elements are inline and we make it block for styling purposes */
+    display: block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+#nav-ref {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.example {
+    background-color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+/* styling for images */
+img {
+    /* by default img elements are inline and we make it block for styling purposes */
+    display: block;
+    margin-top: 20px;
+    width: 700px;
+    height: 500px; 
+}
+
+.images {
+    margin-top: 20px;
+    width: 50%;
+    font-weight: 600;
+    padding: 20px;
+}
+
+section, header {
+    /* we want the header and section to be at the right of the scrren */
+    width: 73%;
+    float: right;
+}
+
+/* stying for references */
+.ref{
+    color : black;
+   text-decoration: none;
+}
+
+@media screen and (max-width : 1000px){
+
+
+    nav{
+        /* we want the navigation to be scrollable, and we get it a height */
+        overflow: scroll; 
+        height : 400px;
+    }
+
+    /* we the width and float property back to its default value */
+    section, header, nav{
+        float : none;  
+        width : initial;
+        position :relative;
+    }
+
+    body{
+        width : 80%;
+        margin : 0 auto;
+    }
+
+    /* we want the image to be responsive */
+    img{
+        width : 100%;
+        height : auto;
+    }
+    .images{
+        width : 100%;
+    }
+
+}

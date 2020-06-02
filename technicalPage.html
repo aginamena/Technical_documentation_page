@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Technical documentation page</title>
+    <link rel="stylesheet" href="technicalPage.css">
+    <meta charset="UFT-8">
+    <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+</head>
+<main id="main-doc">
+    <nav id="navigation_links">
+        <a href="#introduction" class="nav-link">Introduction</a>
+        <a href="#if_statements" class="nav-link"> The Software Behind Motion Sensors</a>
+        <a href="#motion_sensors_at_home" class="nav-link">Motion Sensors at Home</a>
+        <a href="#Ways_in_which_motion_sensors _save_energy_cost" class="nav-link">Ways In Which Motion Sensors Save Energy Costs</a>
+        <a href="#Application_of_motion_sensors_at_home" class="nav-link">Applications of Motion Sensors at Home</a>
+        <a href="#conclusion" class="nav-link">Conclusion</a>
+        <a href="#references" id="nav-ref">References</a>
+    </nav>
+    <header id="introduction">
+        <h1>Can Motion Sensors Reduce Energy Costs at Home?</h1>
+        <P>
+            Motion sensors can reduce energy costs as the sensors would turn light bulbs on and off when motion is detected. This document is going to consist of the science (if statments) behind motion sensors and the use of the science, how if statements are used
+            in motion sensors to save energy costs and discusses the ways in which motion sensors can save energy costs and the places to put motion sensors at home.
+        </P>
+    </header>
+    <section id="if_statments">
+        <h2>The Software Behind Motion Sensors (If Statements)</h2>
+        <p>
+            A computer program must make choices on which way to proceed when processing information. The outcome of the choice is based on the condition(s) given. Conditions are expressions that are true or false[1]. For example,
+            <div class="example">
+                if the light is turned on, turn it off. If the light is turned off, turn it on. If all the data has been received, process the data, or else (if all the data has not been received) wait for all data to come in.
+            </div>
+        </p>
+
+        <p>
+            In computer programming, making decisions when given specific conditions is called if statements[2]. If statements are used to compare two or more options. For example,
+            <div class="example">
+                if a student obtains good grades, he/she is likely to go to college.
+            </div>
+            <p>The only condition required to go to college is to achieve good grades. If a student does not obtain good grades, then he/she will not be accepted into college. These two conditions, good grades and poor grades, are specific conditions that are either
+            true or false. If the condition is false (poor grades), the student will not get into college. If the condition is true (good grades), the student will get into college.
+            </p>
+
+            <div class="images">
+                The figure below shows the strucure of if statements[3]
+                <img src="Images/if_then_flowchart.png" alt="structure of if statments">
+            </div>
+        </p>
+
+        <p>
+            Conditions also known as Boolean expressions have a value of true or false[4]. If the value is false, the else code will be executed, as shown in the in the Figure above. If the Boolean expression is true, the if statement will be executed.
+        </p>
+
+        <p>
+            Another use of an if statement can be to test if a password is correct or not. When someone enters a password to unlock a phone, the registered password in the phone is compared with what was entered to see if they are the same. If they are the same,
+            then the phone unlocks. If they are not the same, the system will prompt the user to enter the correct password. Here is a written pseudocode of an if statement to determine if a password is correct or not.<br>
+            <div class="example">
+                if(password = hello) <br>
+                &ensp; display 'password accepted';<br>
+                else <br> 
+                &ensp; display 'Sorry, the password is incorrect';
+
+            </div>
+            <p>
+            Looking at the pseudocode above, the password the user enters is compared with “hello” to see if they are the same. Depending on the Boolean condition, one of the statements will be displayed on the screen of the phone (“Password accepted” or “Sorry,
+            the password is incorrect”).
+            </p>
+
+        </p>
+        <p>
+            <h3 id="uses_of_if_statements">Uses of if statements</h3>
+            If statements are used to make decisions given a specific condition. If statements operate by using Boolean expressions (true or false value). Given two or more options, if statements pick one of the options. It (if statments) could either display password
+            accepted or sorry, the password is incorrect based on our input as shown in previous example.
+        </p>
+
+    </section>
+    <section id="motion_sensors_at_home">
+        <h2>Motion Sensors at Home</h2>
+        <p>
+            Motion sensors save energy costs by turning the light on and off when motion is detected. This is due to if statements in the sensor’s software.<br> The example below shows how motion sensors work using if statments<br>
+            <div class="example">
+                if(motion is detected)<br>
+                 &ensp;Turn on light; <br>
+                  else <br> 
+                  &ensp; Turn off light;
+            </div>
+        </p>
+        <p>
+            The if statement in the example above checks if motion is detected. If motion is detected, the light bulbs will turn on. If motion is not detected, the lights will remain off. Since the motion sensors will be placed at home, especially in places with
+            less movement, like the parking garage, lundry room and so on, the lights should come on only when it detects motion, by day or by night. Energy should only be used when the sensors detect motion. Thus, saving energy costs at home
+        </p>
+    </section>
+    <section id="Ways_in_which_motion_sensors _save_energy_cost">
+        <h2>Ways in which Motion Sensors Save Energy Costs</h2>
+        <p>
+            With the understanding of how if statements work, if statements can be used in motion sensors to reduce energy costs at home by turning the light bulbs on when the sensors detect movement.
+
+            <div class="images">
+                The image below show motion sensors detecting motion in the hallway[5]
+                <img src="Images/motion sensors decting motion at home.jpg" alt="motion sensors decting motion at home">
+            </div>
+
+            When the sensors detect movement, the bulbs light up. Motions sensors should be placed at areas that are accessed less often, such as the hallways, packing garage, basements, lundry room and so on As a result, energy costs will be reduced since the sensors
+            only turn on the lights when motion is detected.
+        </p>
+        <p>
+            An experiment was carried out in Indonesia at Universitas Budi Luhur to show that installation of motion sensors can contribute to a reduction of electric consumption[6]. These sensors were installed in washrooms to prove that electricity consumption from
+            the lights can contribute to the reduction of energy costs.
+            <div class="images">
+                The power consumption of the bulbs using a motion sensor to turn lights on and off and the consumption without a motion sensor is shown in Table below[6].
+                <img src="Images/motion sensor statistics table.png" alt="motion sensor statistics">
+            </div>
+
+        </p>
+        <p>
+            At the beginning of the experiment, 24.10% energy cost reduction with motion sensors. Halfway in the experiment, 56.02% energy cost reduction with motion sensors. At the end of the experiment, 63.73% energy reduction with motion sensors. The first row
+            in Table above shows a total power consumption of 0.504KWH with motion sensors and 0.664KWH without the sensors. After 35 hours in row 5, the power consumption with sensors is 10.62KWH and without sensors is 23.24KWH; thus, showing an energy
+            reduction of 54.29% after 35 hours. In the last row, energy consumption was reduced by 63.73% with an average savings of 25%.
+            <div class="images">
+                The power consumption comparison of the Table above is shown using a graph in the Figure below[6].
+                <img src="Images/Power measurement comparison graph.png" alt="Power measurement comparison graph">
+            </div>
+            <p>
+                Measurements for high usage periods were taken during the first days of the new academic year and the low usage periods were during the semester break in 2016. From Figure above, it shows that installing the motion sensors made a difference in energy
+                consumption (in high usage, the light bulb consumed less energy with sensors than light bulbs without a sensor).
+            </p>
+        </p>
+    </section>
+    <section id="Application_of_motion_sensors_at_home">
+        <h2>Applications of Motion Sensors at Home</h2>
+        <p>
+            At home, motion sensors can be used to save energy costs by placing them in areas that are accessed less often such as the hallways on each floor, lundry room, packing garage and so on. The price for a recommended motion sensor light is $70 in Figure
+            below. The installation of the lights takes 20 – 30 minutes[7]. A technician from Home Depot could install the light at home which costs about $30 - $250 depending on the time involved.
+
+            <div class="images">
+                The Figure below shows the recommend motion sensor light that can be installed at home[8].
+                <img src="Images/Recommended motion sensor light at home.png" alt="Recommended motion sensor light for home ">
+            </div>
+            This sensor has 180-degree motion detection with up to 70feet in range.
+        </p>
+    </section>
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>
+            Motion sensors can save energy costs by turning the lights on and off when the sensors detect movement. If statements allow the sensors to make decisions when to turn the lights on and off. In an experiment conducted at a university in Indonesia, the
+            bulbs with motion sensors consumed 20.229kwh and the bulbs without the sensors consumed 55.776kwh. Motion sensors should be placed at the garden, parking garage, hallways and any other secluded place at home. Prices for the sensors range
+            from $15 - $70. The installation of the sensors take about 20 – 30 minutes or longer.
+        </p>
+    </section>
+    <section id="references">
+        <h2>References</h2>
+        <div>[1] <cite><a href="https://www.cs.utah.edu/~germain/PPS/Topics/conditionals.html" target = "_blank" class = "ref">Conditional Expressions</a></cite> (n.d.) [Online].</div><br>
+        <div>[2] <cite><a href = "https://www.dummies.com/programming/c/how-to-construct-a-basic-if-statement-in-c/ " target = "_blank" class = "ref">How to construct a basic if statement in c</a></cite> (n.d.) [Online].</div><br> 
+        <div>[3] <cite><a href = "https://www.guru99.com/c-if-else-statement.html" target = "_blank" class = "ref">if statements structure</a></cite> (n.d.) [Online].</div><br>
+        <div>[4] <cite><a href = "https://javascript.info/ifelse" target = "_blank" class = "ref">Conditional Operators: if, ‘?’</a></cite> L. Kantor. (n.d.) [Online].</div><br>
+        <div> [5] <cite><a href = "https://www.istockphoto.com/ca/photo/students-moving-belongings-in-dormitory-hallway-gm526724953-53412908" target = "_blank" class = "ref">Students Moving Belongings in Dormitory Highway</a></cite>  Y. Yang. (2014, Dec, 5) [Online].</div><br>
+        <div> [6] <cite><a href = " https://www.researchgate.net/publication/326578353_Motion_Sensor_Application_on_Building_Lighting_Installation_for_Energy_Saving_and_Carbon_Reduction_Joint_Crediting_Mechanism" target = "_blank" class = "ref">Motion sensor experiment (sensor vs no sensor)</a>
+        </cite> I. Riyanto, L. Margatama, H, Hakim, Martini and D. Hindaro. (2018, Jul.23) [Online].</div><br>
+        <div>[7] <cite><a href = "https://home.costhelper.com/motion-sensor-lights.html" target = "_blank" class = "ref">Motion Sensor Lights Costs</a></cite> (n.d.) [Online].</div><br>
+        <div>[8] <cite><a href = "https://www.homedepot.com/p/Defiant-180-Degree-White-LED-Motion-Outdoor-Security-Light-DFI-5983-WH/205937583" target = "_blank" class = "ref">180 Degree White LED Motion Outdoor Security Light</a></cite> (n.d.) [Online].</div>
+    </section>
+</main>
+</html>
